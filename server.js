@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 const bp = require('body-parser');
 
 const buzz = require('./routes/buzzwords.js');
